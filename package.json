@@ -1,6 +1,6 @@
 {
-  "name": "@ckeditor/ckeditor5-build-classic",
-  "version": "12.3.1",
+  "name": "@oguimbal/ckeditor-with-alignment",
+  "version": "1.0.0",
   "description": "The classic editor build of CKEditor 5 – the best browser-based rich text editor.",
   "keywords": [
     "ckeditor5-build",
@@ -42,12 +42,12 @@
     "@ckeditor/ckeditor5-list": "^12.0.4",
     "@ckeditor/ckeditor5-media-embed": "^11.1.3",
     "@ckeditor/ckeditor5-paragraph": "^11.0.4",
+    "@ckeditor/ckeditor5-alignment": "^11.1.3",
     "@ckeditor/ckeditor5-paste-from-office": "^11.0.4",
     "@ckeditor/ckeditor5-table": "^13.0.2",
     "@ckeditor/ckeditor5-theme-lark": "^14.1.1",
     "eslint": "^5.5.0",
     "eslint-config-ckeditor5": "^2.0.0",
-    "husky": "^1.3.1",
     "lint-staged": "^7.0.0",
     "postcss-loader": "^3.0.0",
     "raw-loader": "^1.0.0",
@@ -82,9 +82,5 @@
     "build/**",
     "packages/**"
   ],
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  }
+  "dependencies": {}
 }
