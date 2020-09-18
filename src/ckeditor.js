@@ -29,6 +29,7 @@ import Table from '@ckeditor/ckeditor5-table/src/table';
 import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
 
 import Alignment from '@ckeditor/ckeditor5-alignment/src/alignment';     // <--- ADDED
+import Indent from '@ckeditor/ckeditor5-indent/src/indent';     // <--- ADDED
 
 export default class ClassicEditor extends ClassicEditorBase {}
 
@@ -55,7 +56,8 @@ ClassicEditor.builtinPlugins = [
 	PasteFromOffice,
 	Table,
 	TableToolbar,
-    Alignment     // <--- ADDED
+    Alignment,     // <--- ADDED
+    Indent,     // <--- ADDED
 ];
 
 // Editor configuration.
